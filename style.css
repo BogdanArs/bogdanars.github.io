@@ -32,7 +32,13 @@ margin-bottom: 10px;
     text-align: center;
 }
 img {
-    max-height: 100%;
+    max-width: 100%;
     height: auto;
     vertical-align: middle;
+}
+video {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
 }
