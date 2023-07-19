@@ -47,6 +47,18 @@ video {
   
     background: #009bcc;
   }
+
+  .bg-blue:hover {
+    background: #00789c;
+  }
+
+  .bg-green:hover {
+    background: #799c18;
+  }
+
+  .bg-orange:hover {
+    background: #d26105;
+  }
   
   .bg-green {
     color: #fff;
@@ -83,10 +95,3 @@ video {
   .todo-name {
     margin-bottom: 0;
 
-    input {
-        margin-left: 50px;
-    }
-    form {
-        width: 400px;
-        height: auto;
-    }
