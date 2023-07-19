@@ -100,7 +100,7 @@ video {
     font-size: 18px;
   }
   .list li::after {
-    background-image: url(/assets/smile.png);
+    background-image: url(assets/smile.png);
     content: "";
     width: 18px;
     height: 18px;
