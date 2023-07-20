@@ -110,35 +110,43 @@ video {
         background-size: cover;
         content: '';
   }
+
   .news {
     columns: 3;
+    overflow-x: hidden;
   }
   .news-block {
-    width: 500px;
-    height: auto;
+    box-sizing: border-box;
+    width: 400px;
+    height: 220px;
     background: #3e3838;
     text-align: left;
     padding: 10px;
-    margin: 20px;
+    margin: 0px;
     border: #fff solid 10px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .date {
     font-family: sans-serif;
     font-size: 12px;
     color: #f5f5f5;
+    overflow: hidden;
   }
   .news-name {
     font-family: sans-serif;
     font-size: 23px;
-    color: #f5f5f5; 
+    color: #f5f5f5;
+    overflow: hidden;
+    display: flex;
   }
-  .news-announce {
+    .news-announce {
     font-family: sans-serif;
     font-size: 15px;
     color: #f5f5f5;
     white-space: nowrap;
-    overflow-x: hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
-
   }
+body {
+  overflow: hidden;
+}
