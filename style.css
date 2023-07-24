@@ -163,6 +163,10 @@ video {
   text-align: center;
   color: #f5f5f5;
   font-family: sans-serif;
+
+  margin-top: 40px;
+
+  z-index: 1000;
 }
 
 .padding-header {
